@@ -1,4 +1,5 @@
 import Link from "next/link";
+import React from "react";
 import "./globals.css";
 
 export const metadata = {
@@ -6,7 +7,11 @@ export const metadata = {
   description: "Modern portfolio layout",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className="dark">
       <body className="min-h-screen bg-[#0B0F19] text-slate-100 font-sans antialiased flex flex-col">
