@@ -12,7 +12,7 @@ export default function ProjectsPage() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {sampleProjects.map((p, idx) => (
-          <div key={idx} className="p-6 bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-xl hover:border-slate-700 transition-all group">
+          <div key={idx} className="p-6 bg-linear-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-xl hover:border-slate-700 transition-all group">
             <span className="text-xs font-mono text-slate-600 block mb-2">0{idx + 1} // STABLE RELEASE</span>
             <h3 className="text-xl font-bold text-slate-200 group-hover:text-cyan-400 transition-colors">{p.title}</h3>
             <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>

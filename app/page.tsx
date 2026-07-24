@@ -11,7 +11,7 @@ export default function HomePage() {
         </div>
         
         <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-          Engineering digital interfaces with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">precision & performance.</span>
+          Engineering digital interfaces with <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-indigo-400">precision & performance.</span>
         </h1>
         
         <p className="text-lg text-slate-400 max-w-2xl leading-relaxed">
