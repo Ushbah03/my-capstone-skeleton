@@ -1,17 +1,12 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Developer Portfolio & Engineering Showcase",
   description: "Senior Frontend AI Engineer Capstone Layout",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body className="min-h-screen bg-[#0B0F19] text-slate-100 font-sans antialiased flex flex-col selection:bg-cyan-500/30 selection:text-cyan-300">
